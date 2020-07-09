@@ -1,5 +1,5 @@
 # Example CLI
-The original version of this was build as a singular file. It is a decent example of how to write a simple utlity with embedded unit testing.
+The original version of this was build as a singular file. It is a decent example of how to write a simple utility with embedded unit testing.
 
 
 ## Setting up the development container
