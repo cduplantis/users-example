@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using Tests;
 using Xunit.Runners;
 
+// oneliner
+// docker run -it mcr.microsoft.com/dotnet/core/sdk:3.1-bionic /bin/bash -c "git clone https://github.com/cduplantis/users-example.git && cd ./users-example && dotnet test && dotnet run"
 
 /// <summary>
 /// A sample user program

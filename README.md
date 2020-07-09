@@ -20,6 +20,7 @@ Follow these steps to open this sample in a container:
 **Recommended**
 
 - VS Code
+- Docker
 
 
 ## To Run
@@ -45,8 +46,13 @@ One you have this project opened in a container, you'll be able to work with it 
    - Choose the`.NET Core Launch (console)` configuration.
    - Press <kbd>CTL-F5</kbd> to launch the app in the container.
    - Alternatively, press <kbd>F5</kbd> to launch the app in the container to debug.
+   
 
-Licensed under the MIT License. See LICENSE in the project root for license information.
+## Oneline Run in Docker
+The following requires `docker` and access to the Microsoft container registry.
+
+`docker run -it --rm mcr.microsoft.com/dotnet/core/sdk:3.1-bionic /bin/bash -c "git clone https://github.com/cduplantis/users-example.git && cd ./users-example && dotnet test && dotnet run"`
+
 
 ## Contributing
 
@@ -55,4 +61,6 @@ This project welcomes contributions and suggestions. Policy for submissions, Ter
 
 ## License
 
-Copyright © Casey Duplantis All rights reserved.<br />
+Licensed under the MIT License. See LICENSE in the project root for license information.
+
+Copyright © Casey Duplantis All rights reserved.
