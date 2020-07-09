@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/Users.dll",
+            "program": "${workspaceFolder}/src/console/bin/Debug/netcoreapp3.1/Users.dll",
             "args": ["test"],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/src/console",
             "console": "internalConsole",
         },
         {
@@ -19,9 +19,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/Users.dll",
+            "program": "${workspaceFolder}/src/console/bin/Debug/netcoreapp3.1/Users.dll",
             "args": [""],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/src/console",
             "console": "internalConsole",
         }
     ]
