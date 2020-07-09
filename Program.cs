@@ -37,6 +37,7 @@ using Xunit.Runners;
 /// dotnet run -- test
 /// </code>
 /// 
+/// The full source of this project can be found at https://github.com/cduplantis/users-example.git
 ///</remarks>
 public class Program
 {
