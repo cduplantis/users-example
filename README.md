@@ -51,7 +51,7 @@ One you have this project opened in a container, you'll be able to work with it 
 ## Oneline Run in Docker
 The following requires `docker` and access to the Microsoft container registry.
 
-`docker run -it --rm mcr.microsoft.com/dotnet/core/sdk:3.1-bionic /bin/bash -c "git clone https://github.com/cduplantis/users-example.git && cd ./users-example && dotnet test ./src/console/Users.csproj && dotnet run ./src/console/Users.csproj"`
+`docker run -it --rm mcr.microsoft.com/dotnet/core/sdk:3.1-bionic /bin/bash -c "git clone https://github.com/cduplantis/users-example.git && cd ./users-example && dotnet test ./src/console/Users.csproj && dotnet run -p ./src/console/Users.csproj"`
 
 
 ## Contributing

@@ -5,7 +5,8 @@ using Tests;
 using Xunit.Runners;
 
 // oneliner
-// docker run -it --rm mcr.microsoft.com/dotnet/core/sdk:3.1-bionic /bin/bash -c "git clone https://github.com/cduplantis/users-example.git && cd ./users-example && dotnet test ./src/console/Users.csproj && dotnet run ./src/console/Users.csproj
+// docker run -it --rm mcr.microsoft.com/dotnet/core/sdk:3.1-bionic /bin/bash -c "git clone https://github.com/cduplantis/users-example.git \
+// && cd ./users-example && dotnet test ./src/console/Users.csproj && dotnet run -p ./src/console/Users.csproj
 
 /// <summary>
 /// A sample user program
